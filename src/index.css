@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0
+}
+
+/* Navbar */
+a{
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  background-color: lightcoral;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1em;
+
+}
+.active{
+  color:lightslategray;
+  font-weight: bold;
+}
+.inActive{
+  color:white;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+}
+
+/* HOME */
+.rowStyle{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+/* TARJETAS */
+.card{
+  position: relative;
+  width: 100%;
+}
+.img-style{
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+.overlay{
+  position: absolute;
+  bottom: 0.5px;
+  right: 100px;
+  /* top: 100px; */
+  left: 0;
+  width: 60%;
+  max-width: calc(100% - 20px);
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  /* background-color: rgba(0, 0, 0, 0.5); */ 
+}
+.overlayHeart{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  top: 10px;
+  /* top: 0px;
+  left: 410px;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: white;
+  font-weight: bold; */
+}
+.text{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
