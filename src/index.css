@@ -44,7 +44,10 @@ h1{
 /* TARJETAS */
 .card{
   position: relative;
-  width: 100%;
+  width: auto;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
 }
 .img-style{
   width: 100%;
