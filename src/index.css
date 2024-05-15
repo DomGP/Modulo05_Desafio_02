@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 /* Navbar */
@@ -31,6 +31,8 @@ a{
 
 h1{
   text-align: center;
+  margin-bottom: 0.5em;
+  color: lightcoral;
 }
 
 /* HOME */
@@ -61,7 +63,7 @@ h1{
   right: 100px;
   /* top: 100px; */
   left: 0;
-  width: 60%;
+  width: 70%;
   max-width: calc(100% - 20px);
   height: auto;
   display: flex;

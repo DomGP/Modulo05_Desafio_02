@@ -10,13 +10,17 @@ const Home = () => {
     const filterPhotos = photos.filter(photo => photo.hasOwnProperty('photographer'))
 
   return (
-    <div className='rowStyle'>
+    <>
+        <h1>Natural Pic</h1>
+        <div className='rowStyle'>
         {
             filterPhotos && filterPhotos.map(photo =>(
                 <Tarjeta photo={photo} key={photo.id} />
             ))
         }
-    </div>
+        </div>
+    </>
+    
   )
 }
 
