@@ -20,10 +20,12 @@ const Tarjeta = ({photo}) => {
         setPhotos(photoActualizada)
     }
 
+    
+
     return (
     <div className='col-md-3'>
         <div className="card">
-            <img src={photo.src.landscape} className="card-img-top img-style" />
+            <img src={photo.src.landscape} className={`card-img-top img-style ${photo.like ? '' : 'desaturate'}`} />
             <div className="card-body overlay">
                 <p className="card-text">{photo.alt}</p>
             </div>
